@@ -42,13 +42,13 @@ The solution addresses critical challenges in healthcare revenue management by i
 - **VSCode & Google Colab**: Development environments
 
 ---
-## 🏗 Architecture
+##  Architecture
 
 ![Architecture Diagram](required_data_for_p3_healthcare_RCM/Result_Screenshots/Phase%204/architecture-diagram.png)
 
 ---
 
-## 📊 Project Phases
+##  Project Phases
 
 ### Phase 1: Environment Setup
 Set up MySQL databases, BigQuery environment, and Python dependencies with proper authentication and connectivity testing.
@@ -72,7 +72,7 @@ Created optimized BigQuery schemas with partitioning and clustering, loaded dime
 Developed SQL queries for key performance indicators including revenue metrics, claims performance, patient analytics, and operational efficiency measures.
 
 ---
-## 📈 Analytics Dashboards
+## Analytics Dashboards
 
 ### Revenue Metrics Dashboard
 ![Revenue Dashboard](required_data_for_p3_healthcare_RCM/Result_Screenshots/Phase7/Monthly_Revenue.png)
