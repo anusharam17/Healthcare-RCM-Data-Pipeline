@@ -1,5 +1,0 @@
-Hello, World!.
-This is File Handling.
-
-This will read the file.
-This will count the lines, words and characters.

@@ -1,2 +1,0 @@
-This will read the file.
-This will count the lines, words and characters.
