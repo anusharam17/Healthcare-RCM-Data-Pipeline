@@ -1,0 +1,14 @@
+2025-08-02 12:20:44,995 - INFO - package: mysql.connector.plugins
+2025-08-02 12:20:44,995 - INFO - plugin_name: caching_sha2_password
+2025-08-02 12:20:44,995 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 12:20:45,044 - INFO - Connected to hospital_a successfully.
+2025-08-02 12:20:45,130 - INFO - Connected to hospital_b successfully.
+2025-08-02 12:20:45,477 - INFO - Extracted 5000 records from hospital_a.patients
+2025-08-02 12:20:45,561 - INFO - Extracted 5000 records from hospital_b.patients
+2025-08-02 12:20:45,575 - INFO - UnifiedPatientID column created successfully.
+2025-08-02 12:20:45,897 - INFO - Extracted 10000 transactions from hospital_a between 2024-01-01 and 2024-12-31
+2025-08-02 12:20:45,898 - WARNING - Only 10000 transactions extracted from hospital_a, expected at least 25000. Consider expanding the date range.
+2025-08-02 12:20:46,217 - INFO - Extracted 10000 transactions from hospital_b between 2024-01-01 and 2024-12-31
+2025-08-02 12:20:46,217 - WARNING - Only 10000 transactions extracted from hospital_b, expected at least 25000. Consider expanding the date range.
+2025-08-02 12:20:46,282 - INFO - Read 10000 rows from claims file: hospital2_claim_data.csv
+2025-08-02 12:20:46,323 - INFO - Read 10000 rows from claims file: hospital1_claim_data.csv

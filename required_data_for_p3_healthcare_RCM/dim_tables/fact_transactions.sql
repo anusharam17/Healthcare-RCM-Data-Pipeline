@@ -1,0 +1,31 @@
+
+CREATE TABLE `healthcare-rcm-467805.healthcare_rcm.fact_transactions` (
+  TransactionID STRING,
+  EncounterID STRING,
+  PatientID STRING,
+  ProviderID STRING,
+  DeptID STRING,
+  VisitDate DATE,
+  ServiceDate DATE,
+  PaidDate DATE,
+  VisitType STRING,
+  Amount FLOAT64,
+  AmountType STRING,
+  PaidAmount FLOAT64,
+  ClaimID STRING,
+  PayorID STRING,
+  ProcedureCode STRING,      
+  ICDCode STRING,
+  LineOfBusiness STRING,
+  MedicaidID STRING,
+  MedicareID STRING,
+  InsertDate DATE,
+  ModifiedDate DATE,
+  PaymentStatus STRING,      
+  HospitalName STRING,
+  TransactionSK INT64,
+  TransactionMonth INT64,
+  TransactionYear INT64,
+  PaymentCategory STRING
+);
+

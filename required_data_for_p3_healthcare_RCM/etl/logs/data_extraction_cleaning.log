@@ -1,0 +1,54 @@
+2025-08-03 01:36:24,241 - WARNING - ⚠️ No data extracted for patients
+2025-08-03 01:36:24,247 - ERROR - ❌ Error reading or combining files: ../output/a_providers.csv, ../output/b_providers.csv -> Index(['provider_id'], dtype='object')
+2025-08-03 01:36:24,248 - WARNING - ⚠️ No data extracted for providers
+2025-08-03 01:36:24,407 - WARNING - ⚠️ No data extracted for transactions
+2025-08-03 01:36:24,476 - ERROR - ❌ Error reading or combining files: ../output/a_encounters.csv, ../output/b_encounters.csv -> Index(['encounter_id'], dtype='object')
+2025-08-03 01:36:24,479 - WARNING - ⚠️ No data extracted for encounters
+2025-08-03 01:36:24,590 - ERROR - ❌ Error reading or combining files: ../claims/hospital1_claim_data.csv, ../claims/hospital2_claim_data.csv -> Index(['claim_id'], dtype='object')
+2025-08-03 01:36:24,594 - WARNING - ⚠️ No claims data extracted.
+2025-08-03 02:21:04,676 - WARNING - ⚠️ No data extracted for patients
+2025-08-03 02:21:04,682 - ERROR - ❌ Error reading or combining files: ../output/a_providers.csv, ../output/b_providers.csv -> Index(['provider_id'], dtype='object')
+2025-08-03 02:21:04,682 - WARNING - ⚠️ No data extracted for providers
+2025-08-03 02:21:04,844 - WARNING - ⚠️ No data extracted for transactions
+2025-08-03 02:21:04,910 - ERROR - ❌ Error reading or combining files: ../output/a_encounters.csv, ../output/b_encounters.csv -> Index(['encounter_id'], dtype='object')
+2025-08-03 02:21:04,913 - WARNING - ⚠️ No data extracted for encounters
+2025-08-03 02:21:05,027 - ERROR - ❌ Error reading or combining files: ../claims/hospital1_claim_data.csv, ../claims/hospital2_claim_data.csv -> Index(['claim_id'], dtype='object')
+2025-08-03 02:21:05,031 - WARNING - ⚠️ No claims data extracted.
+2025-08-08 10:44:03,083 - ERROR - ❌ Error reading or combining files: ../output/a_patients.csv, ../output/b_patients.csv -> [Errno 2] No such file or directory: '../output/a_patients.csv'
+2025-08-08 10:44:03,085 - WARNING - ⚠️ No data extracted for patients
+2025-08-08 10:44:03,086 - ERROR - ❌ Error reading or combining files: ../output/a_providers.csv, ../output/b_providers.csv -> [Errno 2] No such file or directory: '../output/a_providers.csv'
+2025-08-08 10:44:03,086 - WARNING - ⚠️ No data extracted for providers
+2025-08-08 10:44:03,086 - ERROR - ❌ Error reading or combining files: ../output/a_transactions.csv, ../output/b_transactions.csv -> [Errno 2] No such file or directory: '../output/a_transactions.csv'
+2025-08-08 10:44:03,087 - WARNING - ⚠️ No data extracted for transactions
+2025-08-08 10:44:03,087 - ERROR - ❌ Error reading or combining files: ../output/a_encounters.csv, ../output/b_encounters.csv -> [Errno 2] No such file or directory: '../output/a_encounters.csv'
+2025-08-08 10:44:03,087 - WARNING - ⚠️ No data extracted for encounters
+2025-08-08 10:44:03,088 - ERROR - ❌ Error reading or combining files: ../claims/hospital1_claim_data.csv, ../claims/hospital2_claim_data.csv -> [Errno 2] No such file or directory: '../claims/hospital1_claim_data.csv'
+2025-08-08 10:44:03,089 - WARNING - ⚠️ No claims data extracted.
+2025-08-08 10:46:46,642 - WARNING - ⚠️ No data extracted for patients
+2025-08-08 10:46:46,649 - ERROR - ❌ Error reading or combining files: /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/output/a_providers.csv, /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/output/b_providers.csv -> Index(['provider_id'], dtype='object')
+2025-08-08 10:46:46,650 - WARNING - ⚠️ No data extracted for providers
+2025-08-08 10:46:46,826 - WARNING - ⚠️ No data extracted for transactions
+2025-08-08 10:46:46,903 - ERROR - ❌ Error reading or combining files: /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/output/a_encounters.csv, /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/output/b_encounters.csv -> Index(['encounter_id'], dtype='object')
+2025-08-08 10:46:46,907 - WARNING - ⚠️ No data extracted for encounters
+2025-08-08 10:46:47,040 - ERROR - ❌ Error reading or combining files: /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/claims/hospital1_claim_data.csv, /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/claims/hospital2_claim_data.csv -> Index(['claim_id'], dtype='object')
+2025-08-08 10:46:47,046 - WARNING - ⚠️ No claims data extracted.
+2025-08-08 10:50:18,757 - WARNING - ⚠️ No data extracted for patients
+2025-08-08 10:50:18,772 - INFO - ✅ Combined and cleaned providers: 55 rows
+2025-08-08 10:50:18,950 - WARNING - ⚠️ No data extracted for transactions
+2025-08-08 10:50:19,081 - INFO - ✅ Combined and cleaned encounters: 10000 rows
+2025-08-08 10:50:19,214 - ERROR - ❌ Error reading or combining files: /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/claims/hospital1_claim_data.csv, /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/claims/hospital2_claim_data.csv -> Index(['claim_id'], dtype='object')
+2025-08-08 10:50:19,217 - WARNING - ⚠️ No claims data extracted.
+2025-08-08 11:01:46,653 - WARNING - ⚠️ No data extracted for patients
+2025-08-08 11:01:46,660 - ERROR - ❌ Error reading or combining files: ../output/a_providers.csv, ../output/b_providers.csv -> Index(['provider_id'], dtype='object')
+2025-08-08 11:01:46,661 - WARNING - ⚠️ No data extracted for providers
+2025-08-08 11:01:46,830 - WARNING - ⚠️ No data extracted for transactions
+2025-08-08 11:01:46,900 - ERROR - ❌ Error reading or combining files: ../output/a_encounters.csv, ../output/b_encounters.csv -> Index(['encounter_id'], dtype='object')
+2025-08-08 11:01:46,903 - WARNING - ⚠️ No data extracted for encounters
+2025-08-08 11:01:47,026 - ERROR - ❌ Error reading or combining files: ../claims/hospital1_claim_data.csv, ../claims/hospital2_claim_data.csv -> Index(['claim_id'], dtype='object')
+2025-08-08 11:01:47,031 - WARNING - ⚠️ No claims data extracted.
+2025-08-08 11:06:34,185 - WARNING - ⚠️ No data extracted for patients
+2025-08-08 11:06:34,196 - INFO - ✅ Combined and cleaned providers: 55 rows
+2025-08-08 11:06:34,393 - WARNING - ⚠️ No data extracted for transactions
+2025-08-08 11:06:34,518 - INFO - ✅ Combined and cleaned encounters: 10000 rows
+2025-08-08 11:06:34,649 - ERROR - ❌ Error reading or combining files: /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/claims/hospital1_claim_data.csv, /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/claims/hospital2_claim_data.csv -> Index(['claim_id'], dtype='object')
+2025-08-08 11:06:34,654 - WARNING - ⚠️ No claims data extracted.

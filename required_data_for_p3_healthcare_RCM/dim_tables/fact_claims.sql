@@ -1,0 +1,21 @@
+CREATE TABLE `healthcare-rcm-467805.healthcare_rcm.fact_claims` (
+  ClaimID STRING,
+  TransactionID STRING,
+  PatientID STRING,
+  EncounterID STRING,
+  ProviderID STRING,
+  DeptID STRING,
+  ServiceDate DATE,
+  ClaimDate DATE,
+  PayorID STRING,
+  ClaimAmount FLOAT64,
+  PaidAmount FLOAT64,
+  ClaimStatus STRING,
+  PayorType STRING,
+  Deductible FLOAT64,
+  Coinsurance FLOAT64,
+  Copay FLOAT64,
+  InsertDate DATE,
+  ModifiedDate DATE,
+  Source STRING
+);

@@ -1,0 +1,20 @@
+2025-08-03 01:22:47,907 - INFO - ✅ Combined patients - Total records: 10000
+2025-08-03 01:22:47,914 - INFO - ✅ Combined providers - Total records: 55
+2025-08-03 01:22:48,224 - INFO - ✅ Combined transactions - Total records: 20000
+2025-08-03 01:22:48,365 - INFO - ✅ Combined encounters - Total records: 20000
+2025-08-03 01:22:48,642 - INFO - ✅ Combined claims - Total records: 20000
+2025-08-03 01:23:18,355 - ERROR - ❌ Error combining patients: [Errno 2] No such file or directory: '../outputs/a_patients.csv'
+2025-08-03 01:23:18,356 - ERROR - ❌ Error combining providers: [Errno 2] No such file or directory: '../outputs/a_providers.csv'
+2025-08-03 01:23:18,356 - ERROR - ❌ Error combining transactions: [Errno 2] No such file or directory: '../outputs/a_transactions.csv'
+2025-08-03 01:23:18,357 - ERROR - ❌ Error combining encounters: [Errno 2] No such file or directory: '../outputs/a_encounters.csv'
+2025-08-03 01:23:18,440 - ERROR - ❌ Error combining claims data: Cannot save file into a non-existent directory: '../outputs'
+2025-08-03 01:26:58,854 - ERROR - ❌ Error combining patients: [Errno 2] No such file or directory: '../extract_output/a_patients.csv'
+2025-08-03 01:26:58,856 - ERROR - ❌ Error combining providers: [Errno 2] No such file or directory: '../extract_output/a_providers.csv'
+2025-08-03 01:26:58,857 - ERROR - ❌ Error combining transactions: [Errno 2] No such file or directory: '../extract_output/a_transactions.csv'
+2025-08-03 01:26:58,858 - ERROR - ❌ Error combining encounters: [Errno 2] No such file or directory: '../extract_output/a_encounters.csv'
+2025-08-03 01:26:59,204 - INFO - ✅ Combined claims - Total records: 20000
+2025-08-03 01:29:08,924 - INFO - ✅ Combined patients - Total records: 10000
+2025-08-03 01:29:08,932 - INFO - ✅ Combined providers - Total records: 55
+2025-08-03 01:29:09,273 - INFO - ✅ Combined transactions - Total records: 20000
+2025-08-03 01:29:09,425 - INFO - ✅ Combined encounters - Total records: 20000
+2025-08-03 01:29:09,732 - INFO - ✅ Combined claims - Total records: 20000

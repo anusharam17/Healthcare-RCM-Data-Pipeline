@@ -1,0 +1,3 @@
+2025-08-03 02:06:31,157 - INFO - Loaded file: /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/output/combined_patients.csv with 9985 rows.
+2025-08-03 02:06:31,177 - INFO - Removed duplicates. New row count: 9985.
+2025-08-03 02:06:31,227 - INFO - Cleaned file saved: /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/output/cleaned_patients.csv

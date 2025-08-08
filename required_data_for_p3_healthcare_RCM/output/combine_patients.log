@@ -1,0 +1,28 @@
+2025-08-03 01:52:52,428 - INFO - Loaded A: 5000 rows
+2025-08-03 01:52:52,468 - INFO - Loaded B: 5000 rows
+2025-08-03 01:52:52,518 - INFO - Combined file saved: 5000 rows
+2025-08-03 01:52:52,518 - ERROR - Error combining patient data: Expected 10,000 rows but got 5000
+2025-08-03 01:56:52,219 - INFO - Loaded: /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/output/a_patients.csv (5000 rows)
+2025-08-03 01:56:52,219 - INFO - Loaded: /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/output/b_patients.csv (5000 rows)
+2025-08-03 01:56:52,257 - INFO - Cleaned Hospital A rows: 5000
+2025-08-03 01:56:52,257 - INFO - Cleaned Hospital B rows: 4985
+2025-08-03 01:56:52,259 - WARNING - Expected 10,000 rows but got 9985
+2025-08-03 01:56:52,314 - INFO - Saved combined patient file: /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/output/combined_patients.csv
+2025-08-03 01:56:52,316 - WARNING - /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/output/a_claims.csv not found.
+2025-08-03 01:56:52,316 - WARNING - /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/output/b_claims.csv not found.
+2025-08-03 01:59:42,707 - INFO - Loaded: /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/output/a_patients.csv (5000 rows)
+2025-08-03 01:59:42,707 - INFO - Loaded: /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/output/b_patients.csv (5000 rows)
+2025-08-03 01:59:42,742 - INFO - Cleaned Hospital A rows: 5000
+2025-08-03 01:59:42,742 - INFO - Cleaned Hospital B rows: 4985
+2025-08-03 01:59:42,744 - WARNING - Expected 10,000 rows but got 9985
+2025-08-03 01:59:42,799 - INFO - Saved combined patient file: /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/output/combined_patients.csv
+2025-08-03 02:00:54,804 - INFO - Loaded: /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/output/a_patients.csv (5000 rows)
+2025-08-03 02:00:54,805 - INFO - Loaded: /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/output/b_patients.csv (5000 rows)
+2025-08-03 02:00:54,843 - INFO - Cleaned Hospital A rows: 5000
+2025-08-03 02:00:54,843 - INFO - Cleaned Hospital B rows: 4985
+2025-08-03 02:00:54,844 - WARNING - Expected 10,000 rows but got 9985
+2025-08-03 02:00:54,898 - INFO - Saved combined patient file: /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/output/combined_patients.csv
+2025-08-03 02:00:55,081 - INFO - Loaded claims: /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/claims/hospital1_claim_data.csv (10000 rows)
+2025-08-03 02:00:55,081 - INFO - Loaded claims: /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/claims/hospital2_claim_data.csv (10000 rows)
+2025-08-03 02:00:55,085 - INFO - Combined claims total rows: 20000
+2025-08-03 02:00:55,267 - INFO - Saved combined claims: /Users/apple/Desktop/Healthcare/required_data_for_p3_healthcare_RCM/output/combined_claims.csv

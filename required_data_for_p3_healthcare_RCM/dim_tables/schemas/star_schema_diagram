@@ -1,0 +1,21 @@
+// Healthcare Star Schema
+digraph {
+	fontsize=10 rankdir=LR
+	dim_patient [label=<<TABLE BORDER='1' CELLBORDER='1' CELLSPACING='0'><TR><TD COLSPAN='1'><B>dim_patient</B></TD></TR><TR><TD>PatientKey (PK)</TD></TR><TR><TD>PatientID</TD></TR><TR><TD>FirstName</TD></TR><TR><TD>LastName</TD></TR><TR><TD>DOB</TD></TR><TR><TD>Gender</TD></TR><TR><TD>Phone</TD></TR><TR><TD>Email</TD></TR><TR><TD>Address</TD></TR><TR><TD>Age</TD></TR><TR><TD>InsertedDate</TD></TR></TABLE>> fontsize=10 shape=plaintext]
+	dim_date [label=<<TABLE BORDER='1' CELLBORDER='1' CELLSPACING='0'><TR><TD COLSPAN='1'><B>dim_date</B></TD></TR><TR><TD>DateKey (PK)</TD></TR><TR><TD>FullDate</TD></TR><TR><TD>Day</TD></TR><TR><TD>Month</TD></TR><TR><TD>Year</TD></TR><TR><TD>Quarter</TD></TR><TR><TD>Week</TD></TR><TR><TD>Weekday</TD></TR></TABLE>> fontsize=10 shape=plaintext]
+	dim_provider [label=<<TABLE BORDER='1' CELLBORDER='1' CELLSPACING='0'><TR><TD COLSPAN='1'><B>dim_provider</B></TD></TR><TR><TD>ProviderKey (PK)</TD></TR><TR><TD>ProviderID</TD></TR><TR><TD>FirstName</TD></TR><TR><TD>LastName</TD></TR><TR><TD>Specialty</TD></TR><TR><TD>Phone</TD></TR><TR><TD>Email</TD></TR><TR><TD>InsertedDate</TD></TR></TABLE>> fontsize=10 shape=plaintext]
+	dim_procedure [label=<<TABLE BORDER='1' CELLBORDER='1' CELLSPACING='0'><TR><TD COLSPAN='1'><B>dim_procedure</B></TD></TR><TR><TD>ProcedureKey (PK)</TD></TR><TR><TD>ProcedureCode</TD></TR><TR><TD>ProcedureDescription</TD></TR></TABLE>> fontsize=10 shape=plaintext]
+	dim_encounter [label=<<TABLE BORDER='1' CELLBORDER='1' CELLSPACING='0'><TR><TD COLSPAN='1'><B>dim_encounter</B></TD></TR><TR><TD>EncounterKey (PK)</TD></TR><TR><TD>EncounterID</TD></TR><TR><TD>PatientKey (FK)</TD></TR><TR><TD>ProviderKey (FK)</TD></TR><TR><TD>ProcedureKey (FK)</TD></TR><TR><TD>EncounterDate</TD></TR><TR><TD>EncounterType</TD></TR><TR><TD>DepartmentID</TD></TR><TR><TD>InsertedDate</TD></TR><TR><TD>ModifiedDate</TD></TR><TR><TD>HospitalName</TD></TR></TABLE>> fontsize=10 shape=plaintext]
+	fact_transactions [label=<<TABLE BORDER='1' CELLBORDER='1' CELLSPACING='0'><TR><TD COLSPAN='1'><B>fact_transactions</B></TD></TR><TR><TD>TransactionKey (PK)</TD></TR><TR><TD>PatientKey (FK)</TD></TR><TR><TD>ProviderKey (FK)</TD></TR><TR><TD>ProcedureKey (FK)</TD></TR><TR><TD>DateKey (FK)</TD></TR><TR><TD>EncounterKey (FK)</TD></TR><TR><TD>Amount</TD></TR><TR><TD>Status</TD></TR><TR><TD>Mode</TD></TR><TR><TD>TransactionType</TD></TR><TR><TD>TransactionDate</TD></TR><TR><TD>ClaimKey (FK)</TD></TR><TR><TD>PaymentStatus</TD></TR><TR><TD>InsurancePaid</TD></TR><TR><TD>PatientPaid</TD></TR><TR><TD>CoPay</TD></TR><TR><TD>Deductible</TD></TR><TR><TD>Discount</TD></TR><TR><TD>Tax</TD></TR><TR><TD>TotalAmount</TD></TR><TR><TD>InsertedDate</TD></TR><TR><TD>ModifiedDate</TD></TR><TR><TD>TransactionCode</TD></TR><TR><TD>TransactionDescription</TD></TR><TR><TD>Currency</TD></TR><TR><TD>PaymentMethod</TD></TR></TABLE>> color=lightblue fontsize=10 shape=plaintext]
+	fact_claims [label=<<TABLE BORDER='1' CELLBORDER='1' CELLSPACING='0'><TR><TD COLSPAN='1'><B>fact_claims</B></TD></TR><TR><TD>ClaimKey (PK)</TD></TR><TR><TD>PatientKey (FK)</TD></TR><TR><TD>ProviderKey (FK)</TD></TR><TR><TD>ProcedureKey (FK)</TD></TR><TR><TD>DateKey (FK)</TD></TR><TR><TD>EncounterKey (FK)</TD></TR><TR><TD>ClaimAmount</TD></TR><TR><TD>InsurancePaid</TD></TR><TR><TD>PatientPaid</TD></TR><TR><TD>ClaimStatus</TD></TR><TR><TD>ClaimType</TD></TR><TR><TD>SubmissionDate</TD></TR><TR><TD>ApprovalDate</TD></TR><TR><TD>RejectionDate</TD></TR><TR><TD>ClaimCode</TD></TR><TR><TD>DiagnosisCode</TD></TR><TR><TD>HospitalName</TD></TR><TR><TD>InsertedDate</TD></TR></TABLE>> color=lightblue fontsize=10 shape=plaintext]
+	fact_transactions -> dim_patient
+	fact_transactions -> dim_provider
+	fact_transactions -> dim_procedure
+	fact_transactions -> dim_date
+	fact_transactions -> dim_encounter
+	fact_claims -> dim_patient
+	fact_claims -> dim_provider
+	fact_claims -> dim_procedure
+	fact_claims -> dim_date
+	fact_claims -> dim_encounter
+}

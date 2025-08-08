@@ -1,0 +1,3 @@
+2025-08-03 01:55:46,857 - INFO - Loaded Hospital A: 5000 records
+2025-08-03 01:55:46,880 - INFO - Loaded Hospital B: 5000 records
+2025-08-03 01:55:46,923 - ERROR - Expected 10,000 rows but got 9985
